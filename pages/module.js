@@ -119,8 +119,8 @@ const Module = () => {
             <div
               onClick={prevClick}
               className={`cursor-pointer py-2 border-2 ${
-                page == 1 ? `pointer-events-none` : `pointer-events-auto`
-              } rounded-lg border-black px-4 hover:bg-teal-400 bg-teal-300`}
+                page == 1 ? `pointer-events-none bg-gray-400 ` : `pointer-events-auto bg-teal-300 `
+              } rounded-lg border-black px-4 hover:bg-teal-500 `}
             >
               <TbPlayerTrackPrevFilled className="text-xl" />
             </div>
@@ -128,8 +128,8 @@ const Module = () => {
             <div
               onClick={nextClick}
               className={`cursor-pointer py-2 ${
-                page >= 20 ? `pointer-events-none` : `pointer-events-auto`
-              } rounded-lg  border-2 border-black px-4 hover:bg-teal-400  bg-teal-300`}
+                page >= 20 ? `pointer-events-none bg-gray-400 ` : `pointer-events-auto bg-teal-300 `
+              } rounded-lg  border-2 border-black px-4 hover:bg-teal-500  `}
             >
               <TbPlayerTrackNextFilled className="text-xl" />
             </div>
