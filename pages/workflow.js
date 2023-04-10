@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
@@ -24,6 +25,7 @@ const Workflow = () => {
   }, [router]);
   return (
     <div className="border">
+      
       <div className="flex justify-around w-fit mx-auto space-x-12 text-lg py-2 font-bold ">
         <p className="pr-8 ">Name</p>
         <p className="pr-4">Input_Type</p>

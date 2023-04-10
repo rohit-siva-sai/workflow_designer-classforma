@@ -5,7 +5,7 @@ import { FcWorkflow } from "react-icons/fc";
 const Navbar = () => {
   return (
     <div>
-      <div className="flex space-x-4 p-2 bg-gray-100 sticky z-10 top-0  ">
+      <div className="flex space-x-4 px-2 py-3 bg-gray-100 sticky z-10 top-0  ">
         <Link href={"/"}>
           <div className="px-8 font-bold flex space-x-3 items-center hover:text-gray-600 ">
             <div>

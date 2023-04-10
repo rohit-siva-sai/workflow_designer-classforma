@@ -1,4 +1,5 @@
 import Create from "@/components/create";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import { Input } from "postcss";
 import React, { useEffect, useMemo, useState } from "react";
@@ -65,6 +66,11 @@ const Module = () => {
 
   return (
     <div>
+       <Head>
+        <title>Workflow designer / module</title>
+        <meta name="description" content="workflow designer" />
+        <link rel="icon" href="/logo.webp"  />
+      </Head>
       <div className="my-4 mx-6 text-xl font-serif font-bold">
         <span className="font-semibold font-sans text-base text-gray-600">
           WorkFlow Name :{" "}
