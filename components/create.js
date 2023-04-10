@@ -32,7 +32,6 @@ const nodeTypes = {
 const initialNodes = [
   {
     id: "1",
-    type: "input",
     type: "custom",
     data: { input: "input", label: "Input node",output: " " },
     position: { x: 250, y: 5 },
